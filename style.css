@@ -1,0 +1,89 @@
+.input{
+    text-align: center;
+}
+#main{
+    text-align: center;
+    background-color:lightslategray;
+    padding: 15px 30px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px rgb(0, 0, 0); */
+    width: 500px;   
+}
+html,body{
+    height: 100%;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+h3{
+    font-size: 50px;
+}
+input{
+    margin: 10px;
+    height: 40px;
+    text-align: center;
+    font-weight: 900;
+    box-sizing: border-box;
+    background: none;
+    border: 1px white solid;
+    font-size: 22px;
+    width: 200px; 
+}
+button{
+    font-weight: 800;
+    width: 150px;
+    height: 30px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+/* Remove number input spinner in most browsers */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+#result{
+    font-size: 50px;
+    font-weight: 900;
+    margin: 20px;
+}
+button:hover{
+    background-color: darkblue;
+
+}
+@media screen and (max-width:600px){
+    
+    h3{
+        font-size: 20px;
+    }
+    input{
+        width: 120px;
+        height: 25px;
+        font-size: 16px;
+        padding: 10px;
+    }
+    body{
+        background-color: white;
+    }
+    #main{
+        background-color: gray;
+        width: 300px;
+        box-shadow: 0 0 10px black;
+    }
+    button{
+        width:120px ;
+        padding: 3px;
+        height: 25px;
+    }
+
+    #result{
+        font-size: 30px;
+    }
+}
