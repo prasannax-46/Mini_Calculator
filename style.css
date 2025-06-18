@@ -76,9 +76,9 @@ button:hover{
     }
     #main{
         background-color: lightgreen;
-     /* width: 220px; */
+        width: 220px; 
         box-shadow: 0 0 10px black;
-        color:white;
+        color:black;
     }
     button{
         width:120px ;
